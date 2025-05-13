@@ -1,0 +1,47 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+.form-container {
+  padding: 20px;
+  max-width: 480px;
+  margin: auto;
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.step {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step.active {
+  background: #00b894;
+  color: #fff;
+}
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+button {
+  padding: 10px;
+  background: #00b894;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
